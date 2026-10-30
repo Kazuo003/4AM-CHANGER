@@ -1,0 +1,32 @@
+# Python and local tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated packages and temporary build output
+build/
+dist/
+*.zip
+*.rar
+
+# Local settings, logs, device profiles and snapshots
+userdata/
+*.log
+.env
+.env.*
+cookies.txt
+
+# Source repository excludes prebuilt Android tool executables/libraries.
+# Select an independently installed adb.exe in the UI, or supply these locally.
+assets/adb/*.exe
+assets/adb/*.dll
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini

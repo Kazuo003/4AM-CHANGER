@@ -1,0 +1,41 @@
+{
+  "engine": "independent implementation; no vendor app binaries required",
+  "files": {
+    "devices.json": {
+      "source": "Gchanger_v623\\Gchanger_v623\\getdata_gdevices.dec.json",
+      "sha256": "a8a3e0aefd181c5fcbbacad9a0acb50e7a081eec27eaeb6f3ea133849b406827"
+    },
+    "networks.json": {
+      "source": "Gchanger_v623\\Gchanger_v623\\getdata_networks.dec.json",
+      "sha256": "7de05531e85f423b993c542eb3866a5e965b03ec11615d6bcc5b47153d6c117c"
+    },
+    "countries.json": {
+      "source": "[12]-Pchanger-S9-4.4\\[12]-Pchanger-S9-4.4\\data\\info\\locationCountry.json",
+      "sha256": "4ef281016b4452f6f22e6e89a6189b796813c0c3297530fa631cdbd665b89919"
+    },
+    "adb/adb.exe": {
+      "source": "Gchanger_v623\\Gchanger_v623\\data\\adb\\adb.exe",
+      "sha256": "0e606318957baac81b997ccd8ee4bcdff79964a9921da07c716aea3e8d856af7"
+    },
+    "adb/AdbWinApi.dll": {
+      "source": "Gchanger_v623\\Gchanger_v623\\data\\adb\\AdbWinApi.dll",
+      "sha256": "db92f418f6c384faeebccadbc592fb339af3d51ecfec3ec04bd3572080247bae"
+    },
+    "adb/AdbWinUsbApi.dll": {
+      "source": "Gchanger_v623\\Gchanger_v623\\data\\adb\\AdbWinUsbApi.dll",
+      "sha256": "3ba13420d47c60d958e0d5b333440f9895704879bb7c983b55f195717f621a3e"
+    },
+    "adb/libwinpthread-1.dll": {
+      "source": "Gchanger_v623\\Gchanger_v623\\data\\adb\\libwinpthread-1.dll",
+      "sha256": "06e94287b2025b22d6c6665a3a49f20bd115a301db0e5635931e041b41f25dec"
+    },
+    "adb/NOTICE.txt": {
+      "source": "Gchanger_v623\\Gchanger_v623\\data\\adb\\NOTICE.txt",
+      "sha256": "51fad5f1496aad5b898f3e2526c433fd6a996d7a11e78a3b35879f4807e3ae00"
+    },
+    "adb/source.properties": {
+      "source": "Gchanger_v623\\Gchanger_v623\\data\\adb\\source.properties",
+      "sha256": "a2abc4b12c27a0661ff872eb090c23bdc8d3cace2809359d21f30ff247153dfa"
+    }
+  }
+}

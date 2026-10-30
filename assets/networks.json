@@ -1,0 +1,450 @@
+[
+  {
+    "name": "VN",
+    "carrier": "Viettel-45204,Mobifone-45201,Vietnamobile-45205,Vinaphone-45202",
+    "phone": "+84",
+    "locale": "vi-VN",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  {
+    "name": "AT",
+    "carrier": "Drei-23205,A1-23201,bob-23211,Lycamobile-23208,Orange-23206,Tmobile-23203,Telering-23207,VectoneMobile-23215,yesss-23212",
+    "phone": "+43",
+    "locale": "de-AT",
+    "timezone": ""
+  },
+  {
+    "name": "OM",
+    "carrier": "Omantel-42204",
+    "phone": "+968",
+    "locale": "ar-OM",
+    "timezone": ""
+  },
+  {
+    "name": "MY",
+    "carrier": "Celcom-50213,DiGi-50216,Electcoms-50220,Maxis-50212,P1-502153,Telekom-50201,TuneTalk-502150,UMobile-50218,Yes-502152",
+    "phone": "+601",
+    "locale": "en-MY",
+    "timezone": ""
+  },
+  {
+    "name": "KW",
+    "carrier": "Zain-41902,STC-41904,ooredoo-41903",
+    "phone": "+965",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "US",
+    "carrier": "Tmobile-69696,Verizon-311480,ATT-310410",
+    "phone": "+1",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "TW",
+    "carrier": "ChunghwaTelecom-46611,TaiwanMobile-46697,FarEas-46601,AsiaPacific-46605,TStar-46689",
+    "phone": "+886",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "DE",
+    "carrier": "Airdata-26215,Congstar-26213,Dolphin Telecom-26212,Lycamobile-26243,Nash Technologies-26292,O2-26203,Simquadrat-26233,Tmobile-26206,Vodafone-26202,Ortel D-26203",
+    "phone": "+49",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "FR",
+    "carrier": "Bouyues-20820,Freemobile-20815,GlobalStar-20805,LaPosteMobile-20810,NRJMobile-20826,Orange-20801,SFR-20808,TransatelMobile-20822,VirgnMobile-20810",
+    "phone": "+33",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "IT",
+    "carrier": "Three-22237,iliadlliad-22250,TIM-22201,Vodafone-22206,Wind-22288",
+    "phone": "+39",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "ES",
+    "carrier": "Barablu-21423,DIGImobile-21422,Euskaltel-21408,LycaMobile-21425,Movistar-21407,Orange-21403,Simyo-21419,TeleCable-21416,Vodafone-21401,Yoigo-21404",
+    "phone": "+34",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "NL",
+    "carrier": "KPN-20408,Lycammobile-20409,TMobile-20416,Tele2-20402,Telfort-20412,VectoneMobile-20406,Vodafone-20404,Ziggo-20415,Digicel-36268,Tellcel-36251,UTS-36259",
+    "phone": "+31",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "BE",
+    "carrier": "Base-20620,Lycammobile-20606,MobileVikings-20630,Orange-20610,Proximus-20601,Telenet-20605",
+    "phone": "+32",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "PL",
+    "carrier": "Aero2-26004,CyfrowyPolsat-26012,Heyah-26015,Lycamobile-26009,Nordisk-26011,Orange-26003,Play-26006,Plus-26001,Sferia-26013,T-Mobile-26002",
+    "phone": "+48",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "IR",
+    "carrier": "Three-27202,Eir-27203,Lycamobile-27213,Meteor-27203,O2-27202,Tesco Mobile-27211,Vodafone-27201",
+    "phone": "+98",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "RO",
+    "carrier": "DIGIMobil-22605,Idilis-22615,Lycamobile-22616,Orange-22610,Telecom-22603,Vodafone-22601",
+    "phone": "+40",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "BG",
+    "carrier": "A1-28401,Bulsatcom-28411,MaxTelecom-28413,Telenor-28405,Vivacom-28403",
+    "phone": "+359",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "HU",
+    "carrier": "MVMNet-21602,TMobile-21630,Telenor-21601,Vodafone-21670",
+    "phone": "+36",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "HR",
+    "carrier": "A1-21910,Bonbon-21921,TMobile-21901,Tele2-21902",
+    "phone": "+385",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "CH",
+    "carrier": "Comfone-22805,SaltMobile-22803,Sunrise-22802,Swisscom-22801,Orange-23206,Tmobile-23203,Telering-23207,Vectone Mobile-22801",
+    "phone": "+41",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "LV",
+    "carrier": "Bite-24705,LMT-24701,Rigatta-24706,Tele2-24702,Triatel-24703",
+    "phone": "+371",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "LT",
+    "carrier": "Bite-24602,Mediafon-24606,Telia-24601,Tele2-24603",
+    "phone": "+370",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "MM",
+    "carrier": "MPT-41400,Mytel-41409,Ooredoo-41405,Telenor-41406",
+    "phone": "+95",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "KZ",
+    "carrier": "Altel-40107,Beeline-40101,Kazakhtelecom-40108,Kcell-40102,Tele2-40177",
+    "phone": "+7",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "BH",
+    "carrier": "Batelco-42601,Viva-42604,Zain-42602,STC-42604",
+    "phone": "+973",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "SK",
+    "carrier": "4ka-23103,O2-23106,Orange-23101,TMobile-23102",
+    "phone": "+421",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "KH",
+    "carrier": "Cellcard-45601,Metfone-45608,qb-45603,Seatel-45611,Smart-45602",
+    "phone": "+855",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "KR",
+    "carrier": "KT-45002,LGU+-45006,SKTelecom-45005",
+    "phone": "+82",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "JP",
+    "carrier": "eMobile-44000,KDDIau-44050,NTTDoCoMo-44010,SoftBank-44020,mineo-44010,rakuten-44011",
+    "phone": "+81",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "BR",
+    "carrier": "AlgarTelecom-72432,AmazoniaCelular-72424,BrasilTelecom-72416,Claro-72405,Correios-72417,Datora-72418,Nextel-72400,Oi-72430,Sercomtel-72415,TIM-72402,Vivo-72406",
+    "phone": "+55",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "TH",
+    "carrier": "AIS-52001,AIS.s-52003,CATTelecom-52000,DTAC-52018,TOT-52015,TOT.s-52005,TrueMove-52099",
+    "phone": "+66",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "HK",
+    "carrier": "Three-45403,ChinaMobile-45412,ChinaUnicom-45407,HongKongTelecom-45411,CITIC-45401,CSL-45400,Hutchison-45414,PCCW-45416,Smartone-45417,SM-45406",
+    "phone": "+852",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "PH",
+    "carrier": "GlobeTelecom-51502,Smart-51503,SunCellular-51505",
+    "phone": "+63",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "EE",
+    "carrier": "Elisa-24802,Tele2-24803,Telia-24801",
+    "phone": "+372\r\n",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "CZ",
+    "carrier": "NordicTelecom-23004,O2-2302,SZDC-23098,Tmobile-23001,Vodafone-23003",
+    "phone": "+430",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "AU",
+    "carrier": "Three-50506,AAPT-50514,Optus-50502,Vodafone-50503,Telstra-50501",
+    "phone": "+61",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "MA",
+    "carrier": "IAM-60401,INWI-60402,Orange-60400",
+    "phone": "+212",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "SE",
+    "carrier": "Telenor-24006,Tele2-24007",
+    "phone": "+46",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "ID",
+    "carrier": "Three-51089,AXIS-51008,Bolt-51088,Ooredoo-51001,PSN-51000,Smartfren-51009,Telkom-51007,Telkomsel-51010,XLAxiata-51011",
+    "phone": "+62",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "PT",
+    "carrier": "LycaMobile-26804,MEO-26802,NOS-26803,Vodafone-26801",
+    "phone": "+351",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "IN",
+    "carrier": "Vodafone-40401",
+    "phone": "+91",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "FI",
+    "carrier": "Alcom-24414,DNA-24404,Elisa-24405,Telia-24436,Ukkoverkot-24435,Virve-24433",
+    "phone": "+358",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "SA",
+    "carrier": "Mobily-42003,STC-42001,VirginMobile-42005,Zain-42004",
+    "phone": "+27",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "AE",
+    "carrier": "du-42403,Etisalat-42402",
+    "phone": "+971",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "NZ",
+    "carrier": "2degrees-53024,Spark-53005,Vodafone-53001",
+    "phone": "+64",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "NG",
+    "carrier": "9mobile-62160,Airtel-62120,Glo-62150,InterC-62122,MTN-62130,ntel-62140,Smile-62127,Spectranet-62124,Swift-62126",
+    "phone": "+234",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "IQ",
+    "carrier": "Asiacell-41800,KorekTelecom-41840,Mobitel-41845,Omnnea-41892,Zain-41820",
+    "phone": "+964",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "LK",
+    "carrier": "Airtel-41305,Dialog-41302,Etisalat-41303,Hutch-41308,LankaBell-41304,Mobitel-41301,SLT-41312",
+    "phone": "+94",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "RU",
+    "carrier": "Beeline-25028,MegaFon-25002,MotivTelecom-25035,MTS-25001,Rostelecom-25039,Skylink-25006,Tattelecom-25054,Tele2-25020,vainahTelecom-25008,Yota-25011",
+    "phone": "+7",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "GB",
+    "carrier": "Orange-23433,Three-23420",
+    "phone": "+44",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "GH",
+    "carrier": "MTN-62001",
+    "phone": "+233",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "KE",
+    "carrier": "Xpress-63902",
+    "phone": "+254",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "SG",
+    "carrier": "M1-52503",
+    "phone": "+65",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "TR",
+    "carrier": "Telekom-28603,Turkcell-28601,Vodafone-28602",
+    "phone": "+90",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "BD",
+    "carrier": "Airtel-47007,Banglalink-47003,Banglalion-47010,Grameenphone-47001,Ollo-47009,Robi-47002,Teletalk-47004",
+    "phone": "+880",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "CA",
+    "carrier": "Bell-302610,EastLink-302270,Fido-302370,MTS-302490,Rogers-302320,SaskTel-302680,Koodo-302220",
+    "phone": "+1",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "UA",
+    "carrier": "Kyivstar-25503,Lifecell-25506,Trimob-25507,Vodafone-25501",
+    "phone": "+380",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "LA",
+    "carrier": "Beeline-45708,ETL-45702,LaoTel-45701,Unitel-45703",
+    "phone": "+856",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "QA",
+    "carrier": "Ooredoo-42701,Vodafone-42702",
+    "phone": "+974",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "JO",
+    "carrier": "Orange-41677,Umniah-41603,Zain-41601",
+    "phone": "+962",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "PK",
+    "carrier": "CharJi-41002,Jazz-41001,Telenor-41006,Ufone-41003,Zong-41004",
+    "phone": "+92",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "MX",
+    "carrier": "Altan-334140,Movistar-334030,Telcel-334020,Ultranet-334150,Unefon-334040",
+    "phone": "+52",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "ZA",
+    "carrier": "Cell-65507,MTN-65510,Neotel-65513,Telkom-65502,Vodacom-65501",
+    "phone": "+27",
+    "locale": "",
+    "timezone": ""
+  },
+  {
+    "name": "IL",
+    "carrier": "Cellcom-42502,GolanTelecom-42508,HotMobile-42507,Partner-42501",
+    "phone": "+972",
+    "locale": "",
+    "timezone": ""
+  }
+]
