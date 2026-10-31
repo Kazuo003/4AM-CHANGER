@@ -6,6 +6,18 @@ The original folders are left untouched.
 
 ## Run
 
+### Full Windows package
+
+Download [4AM-Changer-1.0.0-Windows-x64-full.zip](packages/4AM-Changer-1.0.0-Windows-x64-full.zip),
+extract the entire ZIP, then open `4AM-Changer/4AM-Changer.exe`.
+The full package contains the Windows executable, Python/Tk runtime, ADB and its
+DLLs/notices, all reference catalogs, and a `source` folder with the complete source.
+It does not require either original changer application or a Python installation.
+Do not run the executable from inside the ZIP or separate it from `_internal`.
+
+The ZIP's SHA-256 is published in `packages/SHA256SUMS.txt`; the packaged-file
+inventory and hashes are in `packages/release-manifest.json`.
+
 Double-click `run.bat`, or open `dist/4AM-Changer/4AM-Changer.exe` after building.
 Keep the entire `dist/4AM-Changer` folder together: the executable uses its bundled
 Python/Tk runtime, reference catalogs, and Android platform tools.
@@ -16,13 +28,11 @@ Python dependencies are required to run from source.
 
 ### GitHub source checkout
 
-The source repository includes the reference JSON catalogs, but deliberately
-excludes compiled Android tool executables/DLLs, generated builds, local settings,
-logs, and device backups. Profile generation and the test suite work without ADB.
-For device operations, supply an independently installed Android SDK Platform-Tools
-`adb.exe` using **Browse** in the UI. For a portable build with bundled ADB, put
-`adb.exe` and its required DLLs in `assets/adb` before packaging. Keep the Android
-tool license notices with redistributed tools.
+The repository includes source, reference JSON catalogs, and Android platform-tool
+executables/DLLs/notices in `assets/adb`. Generated build folders, local settings,
+logs, and device backups are excluded; the explicit full distribution ZIP is in
+`packages`. Profile generation and tests do not require a connected Android device.
+Use **Browse** in the UI if you prefer an independently installed `adb.exe`.
 
 The optional pinned packaging dependency is in `requirements-build.txt`.
 
@@ -113,7 +123,12 @@ python app.py --smoke-test
 python -m PyInstaller --noconfirm --clean --onedir --windowed --name 4AM-Changer --add-data 'assets;assets' app.py
 ```
 
-Alternatively run `build.ps1`. Tests use a fake device, exercising validation,
+Run `python package_release.py` after building to create the complete ZIP and
+checksum manifests, or run `build.ps1` to test, build, and package in one step.
+The packager explicitly selects source/reference files and excludes local runtime
+data, settings, logs, and caches. Every ZIP member is checked against its SHA-256.
+
+Tests use a fake device, exercising validation,
 all device presets, profile generation, shell quoting, ADB error handling,
 pre-write backup ordering, failed writes, failed verification, rollback,
 rollback failure, deletion of originally absent properties, and undo restore.

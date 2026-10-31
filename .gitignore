@@ -10,8 +10,10 @@ htmlcov/
 # Generated packages and temporary build output
 build/
 dist/
+release-build/
 *.zip
 *.rar
+!packages/4AM-Changer-*-Windows-x64-full.zip
 
 # Local settings, logs, device profiles and snapshots
 userdata/
@@ -20,10 +22,7 @@ userdata/
 .env.*
 cookies.txt
 
-# Source repository excludes prebuilt Android tool executables/libraries.
-# Select an independently installed adb.exe in the UI, or supply these locally.
-assets/adb/*.exe
-assets/adb/*.dll
+# Android platform tools are intentionally included for the full offline package.
 
 # Editor and OS files
 .idea/
